@@ -1,0 +1,79 @@
+.wrapper {
+  margin: 10% 1%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  font-family: 'Palatino';
+}
+
+/* HEADING STYLES*/
+
+h1 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-bottom: 1px solid black;
+  margin: 0;
+  padding: 15px 0;
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/* START MAIN CONTENT STYLING HERE */
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+/* BASICS CONTENT */
+
+.theBasics {
+  width: 30%;
+}
+
+span {
+  color: lightblue;
+  margin-right: 5px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  border-right: 1px solid grey;
+  margin-right: 20px;
+  padding-right: 40px;
+  font-size: .9rem;
+  line-height: 1.5rem;
+  color: grey;
+}
+
+/* BIO CONTENT */
+
+.theStory {
+  width: 55%;
+}
+
+p {
+  font-size: .9rem;
+  color: grey;
+}
+
+.bio_photo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+img {
+  width: 110px;
+  height: 110px;
+  border-radius: 360px;
+  margin-left: 30px;
+}
